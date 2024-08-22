@@ -15,7 +15,7 @@ namespace SystemMonitoringAgent
 
         public Service1()
         {
-           // InitializeComponent();
+            InitializeComponent();
             string logFile = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "system_monitoring_service_.log");
 
             Log.Logger = new LoggerConfiguration()
