@@ -26,7 +26,7 @@ namespace SystemMonitoringAgent
             log.Information("Service initialized successfully.");
 
             sysMonHelper = new SysMonHelper(log);
-            sysMonHelper.SystemUtilDataCollector();
+           // sysMonHelper.SystemUtilDataCollector();
         }
 
         protected override void OnStart(string[] args)
